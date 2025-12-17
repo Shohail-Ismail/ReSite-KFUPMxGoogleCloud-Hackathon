@@ -14,23 +14,26 @@
 
 **ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.**
 
-- Hackathon timeline: Project proposals (out of 1000+) -> *Accepted projects (1 of 80 )[**CURRENT STAGE**]* -> Invitation to Saudi (?) -> Win (?)
-
 - Current prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon.
 
 - Watch 3-min [demo video](https://drive.google.com/file/d/19i3dSE6TcBiJi3k7GW5UsjtoulMT2fvo/view?usp=drive_link)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain APIs disabled after 03/2026
 
+- Hackathon timeline: 
+   - 10/2025: Project proposals (out of 1000+)
+   - 12/2025: *Accepted projects (1 of 80)[**CURRENT STAGE**]*
+   - 01/2026: Shortlisted projects chosen
+   - 02/2026: Shortlisted projects flown to Saudi site for week-long MVP development 
+
 <div align="center">
+
+### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
 
 ### <ins>Team</ins>
 - **Shohail Ismail** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system
 - **Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design
 - **Ram Kurakula** - Backend, BigQuery analytics, Looker Studio
 - **Shaurya Singh** - Firebase Auth, Firestore, Maps API
-
-  
-### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
 
 </div>
 
@@ -47,17 +50,16 @@
 - **AI Classification:** Vertex AI (Gemini 1.5 Flash) - (API from Google Cloud)
 - **Maps:** Google Maps Platform
 
----
 
 ### Architecture
 
 #### Google Cloud Projects
 We use two Google Cloud projects for separation of concerns:
 
-| Project | ID | Purpose |
-|---------|-----|---------|
-| **Firebase Project** | `resite-a06ff` | Authentication, Firestore, Storage |
-| **API Project** | `resite-479821` | Maps API, Vertex AI, BigQuery |
+| Project | Purpose |
+|---------|---------|
+| **Firebase Project** | Auth, Firestore, Firebase (in general) |
+| **API Project** | Maps APIs (5+ assosciated APIs), Vertex AI, BigQuery |
 
 #### Architecture Diagrams
 
@@ -100,7 +102,7 @@ We use two Google Cloud projects for separation of concerns:
 **Google Cloud Integration**
 - Firebase for authentication and real-time data
 - Vertex AI (Gemini) for image classification
-- BigQuery for analytics at scale
+- BigQuery for analytics at scale, visuaised with Looker Studio
 - Google Maps for geospatial features
 
 **Sustainable Impact**
