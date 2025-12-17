@@ -24,20 +24,20 @@
    - 12/2025: *Accepted projects (1 of 80)[**CURRENT STAGE**]*
    - 01/2026: Shortlisted projects chosen
    - 02/2026: Shortlisted projects flown to Saudi site for week-long MVP development 
-
+ <br>
 <div align="center">
 
 ### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
 
 </div>
-
+ <br>
 <div align="center">
 
 ### <ins>Team</ins>
-**Shohail Ismail** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system
-**Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design
-**Ram Kurakula** - Backend, BigQuery analytics, Looker Studio
-**Shaurya Singh** - Firebase Auth, Firestore, Maps API
+**[Shohail Ismail](https://github.com/Shohail-Ismail)** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system <br>
+**Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design <br>
+**[Ram Kurakula](https://github.com/ramdracula)** - Backend, BigQuery analytics, Looker Studio <br>
+**Shaurya Singh** - Firebase Auth, Firestore, Maps API <br>
 
 </div>
 
