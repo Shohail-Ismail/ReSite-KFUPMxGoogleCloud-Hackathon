@@ -4,13 +4,11 @@
 * [Description](#description)
 * [Key Points](#key-points)
 
----
 <div align="center">
 
 ![ReSite Logo](public/ReSite-logo.png)
 
 </div>
----
 
 ## Summary
 
@@ -18,7 +16,7 @@
 
 - Current prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon.
 
-- Watch 3-min [demo video](https://drive.google.com/file/d/19i3dSE6TcBiJi3k7GW5UsjtoulMT2fvo/view?usp=drive_link)
+- Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain APIs disabled after 03/2026
 
 - Hackathon timeline: 
