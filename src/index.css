@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ReSite Design System - Circular Economy & Construction */
+
+@layer base {
+  :root {
+    /* ReSite Colors - Light Mode */
+    --background: 40 20% 98%;
+    --foreground: 160 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 160 25% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 25% 12%;
+
+    --primary: 158 50% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 15% 92%;
+    --secondary-foreground: 160 25% 20%;
+
+    --accent: 18 75% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 40 15% 94%;
+    --muted-foreground: 160 10% 45%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 158 50% 32%;
+
+    --radius: 0.75rem;
+
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Sidebar - Deep forest green */
+    --sidebar-background: 158 45% 18%;
+    --sidebar-foreground: 158 15% 92%;
+    --sidebar-primary: 158 50% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 158 35% 25%;
+    --sidebar-accent-foreground: 158 15% 95%;
+    --sidebar-border: 158 30% 15%;
+    --sidebar-ring: 158 50% 45%;
+
+    /* Glow effects */
+    --glow-primary: 158 50% 32%;
+  }
+
+  .dark {
+    /* ReSite Colors - Dark Mode */
+    --background: 160 20% 8%;
+    --foreground: 160 10% 92%;
+
+    --card: 160 18% 12%;
+    --card-foreground: 160 10% 92%;
+
+    --popover: 160 18% 12%;
+    --popover-foreground: 160 10% 92%;
+
+    --primary: 158 55% 45%;
+    --primary-foreground: 160 25% 8%;
+
+    --secondary: 160 15% 18%;
+    --secondary-foreground: 160 10% 90%;
+
+    --accent: 18 70% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 160 15% 16%;
+    --muted-foreground: 160 10% 60%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 15% 20%;
+    --input: 160 15% 20%;
+    --ring: 158 55% 45%;
+
+    --success: 142 70% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Sidebar - Deep dark green */
+    --sidebar-background: 160 25% 6%;
+    --sidebar-foreground: 160 10% 85%;
+    --sidebar-primary: 158 55% 45%;
+    --sidebar-primary-foreground: 160 25% 8%;
+    --sidebar-accent: 160 20% 14%;
+    --sidebar-accent-foreground: 160 10% 90%;
+    --sidebar-border: 160 20% 12%;
+    --sidebar-ring: 158 55% 45%;
+
+    --glow-primary: 158 55% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  /* Interactive element styles */
+  .clickable {
+    @apply cursor-pointer transition-all duration-200 ease-out;
+    @apply hover:scale-[1.02] active:scale-[0.98];
+  }
+
+  .clickable-subtle {
+    @apply cursor-pointer transition-colors duration-200 ease-out;
+    @apply hover:bg-muted/50;
+  }
+
+  /* Card hover effects */
+  .card-interactive {
+    @apply transition-all duration-300 ease-out;
+    @apply hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-0.5;
+    @apply hover:border-primary/20;
+  }
+
+  /* Smooth focus states */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  /* Glass effect */
+  .glass {
+    @apply bg-background/80 backdrop-blur-md;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  /* Subtle glow */
+  .glow {
+    box-shadow: 0 0 20px -5px hsl(var(--glow-primary) / 0.3);
+  }
+
+  /* Skeleton loading shimmer */
+  .shimmer {
+    @apply relative overflow-hidden;
+    @apply before:absolute before:inset-0;
+    @apply before:-translate-x-full before:animate-[shimmer_2s_infinite];
+    @apply before:bg-gradient-to-r before:from-transparent before:via-white/10 before:to-transparent;
+  }
+}
+
+@layer utilities {
+  /* Fade in animation */
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.4s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.2s ease-out forwards;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}

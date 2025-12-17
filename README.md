@@ -29,6 +29,10 @@
 
 ### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
 
+</div>
+
+<div align="center">
+
 ### <ins>Team</ins>
 - **Shohail Ismail** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system
 - **Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design
@@ -41,29 +45,29 @@
 ---
 
 ## Description
-### Stack
+- ### Stack
 
-- **Frontend:** React + TypeScript + Vite + Tailwind CSS + shadcn/ui
-- **Authentication & Storage:** Firebase (Auth, Firestore, Cloud Storage)
-- **Database:** Supabase (PostgreSQL + Edge Functions)
-- **Analytics:** Google BigQuery
-- **AI Classification:** Vertex AI (Gemini 1.5 Flash) - (API from Google Cloud)
-- **Maps:** Google Maps Platform
+   - **Frontend:** React + TypeScript + Vite + Tailwind CSS + shadcn/ui
+   - **Authentication & Storage:** Firebase (Auth, Firestore, Cloud Storage)
+   - **Database:** Supabase (PostgreSQL + Edge Functions)
+   - **Analytics:** Google BigQuery
+   - **AI Classification:** Vertex AI (Gemini 1.5 Flash) - (API from Google Cloud)
+   - **Maps:** Google Maps Platform
 
 
-### Architecture
+- ### Architecture
 
-#### Google Cloud Projects
-We use two Google Cloud projects for separation of concerns:
+   - #### Google Cloud Projects
+   We use two Google Cloud projects for separation of concerns:
 
-| Project | Purpose |
-|---------|---------|
-| **Firebase Project** | Auth, Firestore, Firebase (in general) |
-| **API Project** | Maps APIs (5+ assosciated APIs), Vertex AI, BigQuery |
+   | Project | Purpose |
+   |---------|---------|
+   | **Firebase Project** | Auth, Firestore, Firebase (in general) |
+   | **API Project** | Maps APIs (5+ assosciated APIs), Vertex AI, BigQuery |
 
-#### Architecture Diagrams
+   - #### Architecture Diagrams
 
-[TODO: add diagrams later]
+   [TODO: add diagrams later]
 
 ---
 

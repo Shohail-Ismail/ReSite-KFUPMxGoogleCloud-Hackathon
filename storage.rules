@@ -1,0 +1,83 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Helper function to check file size (5MB limit)
+    function isValidFileSize() {
+      return request.resource.size < 5 * 1024 * 1024;
+    }
+    
+    // Helper function to check if file is an image
+    function isImage() {
+      return request.resource.contentType.matches('image/.*');
+    }
+    
+    // Helper function to check if file is JPEG or PNG (for ID documents)
+    function isValidIdDocumentType() {
+      return request.resource.contentType == 'image/jpeg' || 
+             request.resource.contentType == 'image/png';
+    }
+    
+    // Helper function to check if user belongs to an organization
+    function belongsToOrg(orgId) {
+      let userDoc = firestore.get(/databases/(default)/documents/users/$(request.auth.uid));
+      return userDoc != null && userDoc.data.organisationId == orgId;
+    }
+    
+    // Helper function to get listing's organization ID
+    function getListingOrgId(listingId) {
+      let listingDoc = firestore.get(/databases/(default)/documents/listings/$(listingId));
+      return listingDoc != null ? listingDoc.data.organisationId : null;
+    }
+    
+    // ID Documents - users can only upload/read their own
+    // Path: id-documents/{userId}/{filename}
+    match /id-documents/{userId}/{allPaths=**} {
+      allow read: if isAuthenticated() && request.auth.uid == userId;
+      allow write: if isAuthenticated() && 
+                      request.auth.uid == userId && 
+                      isValidIdDocumentType() && 
+                      request.resource.size < 2 * 1024 * 1024; // 2MB limit for ID docs
+    }
+    
+    // Listing images - authenticated users can read, only org members can write
+    // Path: listings/{listingId}/{filename}
+    match /listings/{listingId}/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                      isImage() && 
+                      isValidFileSize() &&
+                      belongsToOrg(getListingOrgId(listingId));
+    }
+    
+    // Organisation logos/images - only org members can write
+    // Path: organisations/{orgId}/{filename}
+    match /organisations/{orgId}/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                      belongsToOrg(orgId) &&
+                      isImage() && 
+                      isValidFileSize();
+    }
+    
+    // User avatars
+    // Path: avatars/{userId}/{filename}
+    match /avatars/{userId}/{allPaths=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && 
+                      request.auth.uid == userId && 
+                      isImage() && 
+                      isValidFileSize();
+    }
+    
+    // Deny all other access by default
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

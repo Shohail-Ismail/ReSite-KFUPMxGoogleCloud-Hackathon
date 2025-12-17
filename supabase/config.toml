@@ -1,0 +1,7 @@
+project_id = "ctziixvpaiwfulvucjyn"
+
+[functions.material-classify]
+verify_jwt = true
+
+[functions.seed-bigquery]
+verify_jwt = true
