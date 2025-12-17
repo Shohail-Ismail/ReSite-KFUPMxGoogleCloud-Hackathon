@@ -1,0 +1,4 @@
+# Private backend for API keys, secrets, etc. -- access granted to hackathon judges + ReSite team only
+*.key
+.env
+private/
