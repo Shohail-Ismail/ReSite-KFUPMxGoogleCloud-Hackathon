@@ -5,9 +5,11 @@
 * [Key Points](#key-points)
 
 ---
+<div align="center">
 
 ![ReSite Logo](public/ReSite-logo.png)
 
+</div>
 ---
 
 ## Summary
@@ -34,10 +36,10 @@
 <div align="center">
 
 ### <ins>Team</ins>
-- **Shohail Ismail** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system
-- **Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design
-- **Ram Kurakula** - Backend, BigQuery analytics, Looker Studio
-- **Shaurya Singh** - Firebase Auth, Firestore, Maps API
+**Shohail Ismail** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system
+**Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design
+**Ram Kurakula** - Backend, BigQuery analytics, Looker Studio
+**Shaurya Singh** - Firebase Auth, Firestore, Maps API
 
 </div>
 
@@ -67,7 +69,7 @@
 
    - #### Architecture Diagrams
 
-   [TODO: add diagrams later]
+   ![ReSite - Architecture Diagrams & Technical Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
 
 ---
 
