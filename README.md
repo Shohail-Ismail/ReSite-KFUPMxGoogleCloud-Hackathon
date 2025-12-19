@@ -37,7 +37,7 @@
 **[Shohail Ismail](https://github.com/Shohail-Ismail)** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system <br>
 **Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design <br>
 **[Ram Kurakula](https://github.com/ramdracula)** - Backend, BigQuery analytics, Looker Studio <br>
-**Shaurya Singh** - Firebase Auth, Firestore, Maps API <br>
+**[Shaurya Singh](https://github.com/spsrathore04-max)** - Firebase Auth, Firestore, Maps API <br>
 
 </div>
 
