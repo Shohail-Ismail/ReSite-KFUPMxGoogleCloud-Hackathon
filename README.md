@@ -28,7 +28,8 @@
 <div align="center">
 
 ### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
-
+(Some features may still be WIP)
+   
 </div>
  <br>
 <div align="center">
