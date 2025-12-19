@@ -57,6 +57,8 @@
 
 - ### Architecture
 
+   - #### [Architecture Diagrams (Systems + Data) & Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
+
    - #### Google Cloud Projects
    We use two Google Cloud projects for separation of concerns:
 
@@ -64,10 +66,6 @@
    |---------|---------|
    | **Firebase Project** | Auth, Firestore, Firebase (in general) |
    | **API Project** | Maps APIs (5+ assosciated APIs), Vertex AI, BigQuery |
-
-   - #### Architecture Diagrams
-
-   ![ReSite - Architecture Diagrams & Technical Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
 
 ---
 
