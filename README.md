@@ -21,8 +21,8 @@
 
 - Hackathon timeline: 
    - <ins>10/2025:</ins> Project proposals (chosen as 1 of 80 out of 250+ international submissions)
-   - <ins>12/2025:</ins> Accepted projects development with mentorship from Google Cloud and KAUST
-   - ***<ins>01/2026 - 02/2026:</ins> Shortlisted projects chosen to be flown to KFUPM for week-long MVP development -- TBD***
+   - <ins>12/2025:</ins> Accepted projects development with mentorship from Google Cloud and KFUPM
+   - ***<ins>01/2026 - 02/2026:</ins> Shortlisted projects chosen to be flown to KAUST for week-long MVP development -- TBD***
    - <ins>02/2026:</ins> Final week-long MVP development -> Winning projects judged
  <br>
 <div align="center">
