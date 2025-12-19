@@ -20,10 +20,10 @@
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain APIs disabled after 03/2026
 
 - Hackathon timeline: 
-   - 10/2025: Project proposals (out of 1000+)
-   - 12/2025: *Accepted projects (1 of 80)[**CURRENT STAGE**]*
-   - 01/2026: Shortlisted projects chosen
-   - 02/2026: Shortlisted projects flown to Saudi site for week-long MVP development 
+   - <ins>10/2025:</ins> Project proposals (chosen as 1 of 80 out of 250+ international submissions)
+   - <ins>12/2025:</ins> Accepted projects development with mentorship from Google Cloud and KAUST
+   - ***<ins>01/2026 - 02/2026:</ins> Shortlisted projects chosen to be flown to KFUPM for week-long MVP development -- TBD***
+   - <ins>02/2026:</ins> Final week-long MVP development -> Winning projects judged
  <br>
 <div align="center">
 
@@ -34,10 +34,10 @@
 <div align="center">
 
 ### <ins>Team</ins>
-**[Shohail Ismail](https://github.com/Shohail-Ismail)** - Team Co-Lead (Technical), Full-stack development, Vertex AI + RL system <br>
-**Chinmay Sharma** - Team Co-Lead (Management), Frontend, UX design <br>
-**[Ram Kurakula](https://github.com/ramdracula)** - Backend, BigQuery analytics, Looker Studio <br>
-**[Shaurya Singh](https://github.com/spsrathore04-max)** - Firebase Auth, Firestore, Maps API <br>
+**[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) + Vertex AI - RL system <br>
+**Chinmay Sharma (Team Co-Lead (Management))** - UI/UX + Comms + Knowledge management <br>
+**[Ram Kurakula](https://github.com/ramdracula)** - Data analysis/visualisation (BigQuery) + Innovation/Growth strategy + Research <br>
+**[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
 
 </div>
 
