@@ -34,8 +34,8 @@
 <div align="center">
 
 ### <ins>Team</ins>
-**[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) + Vertex AI - RL system <br>
-**[Chinmay Sharma (Team Co-Lead (Management))](https://github.com/chinmayachuthsharma)** - UI/UX + GCP/Firebase onboarding + Knowledge management <br>
+**[Shohail Ismail (Team Co-Lead (Tech))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) + Vertex AI - RL system <br>
+**[Chinmay Sharma (Team Co-Lead (Ops))](https://github.com/chinmayachuthsharma)** - UI/UX + GCP/Firebase onboarding + Knowledge management <br>
 **[Ram Kurakula](https://github.com/ramdracula)** - Data visualisation (BigQuery) + Innovation/Growth analysis + Research <br>
 **[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
 
