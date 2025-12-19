@@ -35,7 +35,7 @@
 
 ### <ins>Team</ins>
 **[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) + Vertex AI - RL system <br>
-**Chinmay Sharma (Team Co-Lead (Management))** - UI/UX + Comms + Knowledge management <br>
+**Chinmay Sharma (Team Co-Lead (Management))** - UI/UX + Business analysis + Knowledge management <br>
 **[Ram Kurakula](https://github.com/ramdracula)** - Data analysis/visualisation (BigQuery) + Innovation/Growth strategy + Research <br>
 **[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
 
