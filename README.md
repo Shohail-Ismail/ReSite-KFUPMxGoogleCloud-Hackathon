@@ -14,16 +14,11 @@
 
 **ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.**
 
-- Current prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon.
+- Prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon. Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
 
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain APIs disabled after 03/2026
 
-- Hackathon timeline: 
-   - <ins>10/2025:</ins> Project proposals (chosen as 1 of 80 out of 250+ international submissions)
-   - <ins>12/2025:</ins> Accepted projects development with mentorship from Google Cloud and KFUPM
-   - ***<ins>01/2026 - 02/2026:</ins> Shortlisted projects chosen to be flown to KAUST for week-long MVP development -- TBD***
-   - <ins>02/2026:</ins> Final week-long MVP development -> Winning projects judged
  <br>
 <div align="center">
 
