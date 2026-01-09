@@ -20,22 +20,13 @@
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain Cloud APIs disabled after 03/2026
 
  <br>
-<div align="center">
-
-### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
-(Features may still be WIP)
-   
-</div>
- <br>
-<div align="center">
 
 ### <ins>Team</ins>
-**[Shohail Ismail (Team Co-Lead (Tech))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) + Vertex AI - RL system <br>
-**[Chinmay Sharma (Team Co-Lead (Ops))](https://github.com/chinmayachuthsharma)** - UI/UX + GCP/Firebase onboarding + Knowledge management <br>
-**[Ram Kurakula](https://github.com/ramdracula)** - Data visualisation (BigQuery) + Innovation/Growth analysis + Research <br>
-**[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
+- **[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) Setup & Onboarding + Vertex AI RL system (architecture + skeleton impl.) <br>
+- **[Chinmay Sharma (Team Co-Lead (Ops))](https://github.com/chinmayachuthsharma)** - UI/UX + Business analysis + Knowledge management <br>
+- **[Ram Kurakula](https://github.com/ramdracula)** - Data visualisation (BigQuery) + Innovation/Growth analysis + Research <br>
+- **[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
 
-</div>
 
 
 ---
