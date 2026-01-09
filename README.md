@@ -17,13 +17,13 @@
 - Prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon. Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
 
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
->NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain APIs disabled after 03/2026
+>NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain Cloud APIs disabled after 03/2026
 
  <br>
 <div align="center">
 
 ### <ins>**[Try ReSite](https://resite-prototype.lovable.app)**</ins>
-(Some features may still be WIP)
+(Features may still be WIP)
    
 </div>
  <br>
