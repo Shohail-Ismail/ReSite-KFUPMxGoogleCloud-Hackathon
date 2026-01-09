@@ -19,8 +19,6 @@
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain Cloud APIs disabled after 03/2026
 
- <br>
-
 ### <ins>Team</ins>
 - **[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) Setup & Onboarding + Vertex AI RL system (architecture + skeleton impl.) <br>
 - **[Chinmay Sharma (Team Co-Lead (Ops))](https://github.com/chinmayachuthsharma)** - UI/UX + Business analysis + Knowledge management <br>
@@ -52,7 +50,7 @@
    | Project | Purpose |
    |---------|---------|
    | **Firebase Project** | Auth, Firestore, Firebase (in general) |
-   | **API Project** | Maps APIs (5+ assosciated APIs), Vertex AI, BigQuery |
+   | **API Project** | Maps APIs (6 assosciated APIs), Vertex AI, BigQuery + Looker Studio |
 
 ---
 
