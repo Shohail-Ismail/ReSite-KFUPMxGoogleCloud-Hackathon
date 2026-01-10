@@ -34,8 +34,6 @@ We use two Google Cloud projects for separation of concerns:
 - Firebase: Auth, Firestore, Firebase (in general)
 - APIs only: Maps APIs (6 assosciated APIs), Vertex AI, BigQuery + Looker Studio
 
----
-
 
 <!--
 ## Key Features
