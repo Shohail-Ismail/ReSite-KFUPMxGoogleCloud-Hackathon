@@ -1,9 +1,5 @@
 # ReSite - KFUPMxGoogle Cloud 'Intelligent Planet' Hackathon 2025
 
-* [Summary](#summary)
-* [Description](#description)
-* [Key Points](#key-points)
-
 <div align="center">
 
 ![ReSite Logo](public/ReSite-logo.png)
@@ -29,7 +25,7 @@ ReSite is a circular economy platform prototype that connects construction sites
 
 ---
 
-## Description
+## Technical
 - #### [Architecture Diagrams (Systems + Data) & Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
 
 - #### Google Cloud Projects
