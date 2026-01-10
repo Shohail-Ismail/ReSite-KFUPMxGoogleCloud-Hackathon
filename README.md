@@ -12,7 +12,7 @@
 
 ## Summary
 
-**ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.**
+ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.
 
 - Prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon. Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
 
@@ -30,27 +30,13 @@
 ---
 
 ## Description
-- ### Stack
+- #### [Architecture Diagrams (Systems + Data) & Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
 
-   - **Frontend:** React + TypeScript + Vite + Tailwind CSS + shadcn/ui
-   - **Authentication & Storage:** Firebase (Auth, Firestore, Cloud Storage)
-   - **Database:** Supabase (PostgreSQL + Edge Functions)
-   - **Analytics:** Google BigQuery
-   - **AI Classification:** Vertex AI (Gemini 1.5 Flash) - (API from Google Cloud)
-   - **Maps:** Google Maps Platform
+- #### Google Cloud Projects
+We use two Google Cloud projects for separation of concerns:
 
-
-- ### Architecture
-
-   - #### [Architecture Diagrams (Systems + Data) & Considerations Report](public/ReSite-Week-2-Report--Architecture-Diagrams-And-Technical-Considerations.pdf)
-
-   - #### Google Cloud Projects
-   We use two Google Cloud projects for separation of concerns:
-
-   | Project | Purpose |
-   |---------|---------|
-   | **Firebase Project** | Auth, Firestore, Firebase (in general) |
-   | **API Project** | Maps APIs (6 assosciated APIs), Vertex AI, BigQuery + Looker Studio |
+- Firebase: Auth, Firestore, Firebase (in general)
+- APIs only: Maps APIs (6 assosciated APIs), Vertex AI, BigQuery + Looker Studio
 
 ---
 
@@ -82,7 +68,7 @@
 - BigQuery-powered analytics dashboard
 - Track waste reduction metrics
 - Material reuse statistics
--->
+
 
 ## Key Points
 
@@ -107,3 +93,4 @@
 - Real-world use case (material classification)
 - Reduces manual data entry
 - Improves listing accuracy
+-->
