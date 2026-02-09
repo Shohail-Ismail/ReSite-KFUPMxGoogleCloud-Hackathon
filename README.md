@@ -15,9 +15,10 @@ ReSite is a circular economy platform prototype that connects construction sites
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain Cloud APIs disabled after 03/2026
 
-### <ins>Team</ins>
-- **[Shohail Ismail (Team Co-Lead (Technical))](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) Setup & Onboarding + Vertex AI RL system (architecture + skeleton impl.) <br>
-- **[Chinmay Sharma (Team Co-Lead (Ops))](https://github.com/chinmayachuthsharma)** - UI/UX + Business analysis + Knowledge management <br>
+### **Team**
+
+- **[Shohail Ismail (Technical Lead)](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) Setup & Onboarding + Vertex AI RL system (architecture + skeleton impl.) <br>
+- **[Chinmay Sharma (Operations Lead))](https://github.com/chinmayachuthsharma)** - UI/UX + Business analysis + Knowledge management <br>
 - **[Ram Kurakula](https://github.com/ramdracula)** - Data visualisation (BigQuery) + Innovation/Growth analysis + Research <br>
 - **[Shaurya Singh](https://github.com/spsrathore04-max)** - Google Cloud (Maps API) + Competitor analysis + Research <br>
 
