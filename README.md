@@ -14,13 +14,11 @@
 
 - Stack: React + TypeScript, Firebase (Auth + Firestore), Supabase (PostgreSQL), BigQuery, GCP (Maps APIs (6 assosciated APIs), BigQuery, Looker Studio, Vertex AI)
 
+- Ranked in top 10% of submissions globally + commended by KAUST, KFUPM, and Google Cloud mentors.
+
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
 >NOTE: Demo is of prototype submitted to hackathon on 12/2025
 
-## Results
-- Ranked in top 10% of submissions globally + commended by KAUST, KFUPM, and Google Cloud mentors.
-
-- Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
 
 ## **Team**
 
