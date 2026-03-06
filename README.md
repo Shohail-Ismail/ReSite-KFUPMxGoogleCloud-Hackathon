@@ -6,16 +6,23 @@
 
 </div>
 
-## Summary
+## Project
 
-ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.
+- ReSite is a circular economy platform prototype that connects construction sites with surplus materials in Saudi Arabia to local sites that can reuse them, optimised for sustainability, explainability, and user satisfaction.
 
-- Prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon. Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
+- Prototype built over 4 weeks for the KFUPM x Google Cloud 'Intelligent Planet' hackathon.
+
+- Stack: React + TypeScript, Firebase (Auth + Firestore), Supabase (PostgreSQL), BigQuery, GCP (Maps APIs (6 assosciated APIs), BigQuery, Looker Studio, Vertex AI)
 
 - Watch 3-min [demo video](https://drive.google.com/file/d/1nFKLTO8LhhZ6IiYHlvbSKFDOcCTdNgYR/view?usp=sharing)
->NOTE: Demo is of prototype submitted to hackathon on 12/2025 - may have certain Cloud APIs disabled after 03/2026
+>NOTE: Demo is of prototype submitted to hackathon on 12/2025
 
-### **Team**
+## Results
+- Ranked in top 10% of submissions globally + commended by KAUST, KFUPM, and Google Cloud mentors.
+
+- Received commendations from KAUST, KFUPM, and Google Cloud - achieved ranking within top 10% of submissions globally.
+
+## **Team**
 
 - **[Shohail Ismail (Technical Lead)](https://github.com/Shohail-Ismail)** - Full-stack development + Cloud (GCP/Firebase) Setup & Onboarding + Vertex AI RL system (architecture + skeleton impl.) <br>
 - **[Chinmay Sharma (Operations Lead))](https://github.com/chinmayachuthsharma)** - UI/UX + Business analysis + Knowledge management <br>
@@ -32,7 +39,7 @@ ReSite is a circular economy platform prototype that connects construction sites
 - #### Google Cloud Projects
 We use two Google Cloud projects for separation of concerns:
 
-- Firebase: Auth, Firestore, Firebase (in general)
+- Firebase: Auth, Firestore, Firebase
 - APIs only: Maps APIs (6 assosciated APIs), Vertex AI, BigQuery + Looker Studio
 
 
